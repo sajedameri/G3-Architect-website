@@ -6,3 +6,27 @@
   font-weight: 400;
   font-style: normal;
 }
+.display-flex{
+  display: flex;
+}
+/* link-item style */
+.link-item{
+  list-style: none;
+  margin-right: 30px;
+  
+}
+.link-link{
+  text-decoration: none;
+}
+
+.navber{
+  justify-content: space-between;
+}
+/* hader color */
+.bg-light{
+  background-color:antiquewhite;
+}
+.navber{
+  max-width:1400px;
+  margin: 0 auto;
+}
