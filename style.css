@@ -41,7 +41,7 @@
   text-align: center;
 margin-bottom: 50px;
 }
-.banar hading title{
+.banar-hading title{
   font-weight: 700;
   font-size: 4rem;
 }
@@ -55,8 +55,10 @@ margin-bottom: 50px;
   border: none;
 
 }
-.text primary{
+.text-primary{
   color: orangered;
+  font-weight: 700;
+  font-size: 45px ;
 }
 main{
   max-width: 1440px;
@@ -78,8 +80,9 @@ main{
   max-width: 530px;
 
 }
-#Quick list{
+#Quick-list{
   font-weight: 500;
+  font-size: 45px;
 }
 .teams{
   margin:50px 130px;
