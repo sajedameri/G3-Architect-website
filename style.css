@@ -80,15 +80,23 @@ main{
   max-width: 530px;
 
 }
-#Quick-list{
-  font-weight: 500;
-  font-size: 45px;
-}
+
 .teams{
   margin:50px 130px;
 }
+.text{
+  color:#727272;
+  font-weight: 400;
+  font-size: 45px;
+  
+}
+.text-our{
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
 @media screen and (max-width: 576px){
-  .nav links, .navber  {
+  .nav-links, .navber  {
     flex-direction: column;
 
   }
