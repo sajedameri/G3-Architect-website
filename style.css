@@ -21,6 +21,7 @@
 
 .navber{
   justify-content: space-between;
+  align-items: center;
 }
 /* hader color */
 .bg-light{
@@ -29,4 +30,17 @@
 .navber{
   max-width:1400px;
   margin: 0 auto;
+} 
+.brand{
+  font-weight: 700;
+  font-size: 45px;
+}
+.banar-conten{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banar hading title{
+  font-weight: 700;
+  font-size: 4rem;
 }
