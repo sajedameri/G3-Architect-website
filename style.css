@@ -96,10 +96,24 @@ main{
   color: #131313;
 }
 @media screen and (max-width: 576px){
-  .nav-links, .navber  {
+  .nav-links, .navber,.teams  {
     flex-direction: column;
 
   }
+  .team-img-contenar{
+     grid-template-columns: repeat(1, 1fr);
+  }
+.our-featurese{
+  margin-left: 0;
+}
   
-  
+}
+/* medium device style */
+@media screen and (min-width:576px) and (max-width:992px){
+  .teams{
+    flex-direction: column;
+  }
+    .our-featurese{
+    margin-left: 0;
+  }
 }
